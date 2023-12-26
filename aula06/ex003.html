@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soma</title>
+    <style>
+        body {
+            background-color: rgb(107, 107, 151);
+            color: white; /* Comentario em Css */
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem vindo</h1> <!-- Comententario em Html -->
+    <a>Já me livrei da maldição!</a>
+    <script>        
+        var num1 = Number(window.prompt('Digite um número: '))
+        var num2 = Number(window.prompt('Digite outro número: '))       
+        if (!isNaN(num1) && !isNaN(num2)) {
+            var soma = num1 + num2
+            window.alert(`A soma de ${num1} + ${num2} = ${soma}`) //Placeholder só funciona com crase
+        } else {
+            window.alert('Por favor, digite números válidos.')
+        }
+    </script>
+</body>
+</html>
